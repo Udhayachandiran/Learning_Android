@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/mainText"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:text="This is Exercise 1!" />
+
+    <Button
+        android:id="@+id/colourbtn"
+        android:layout_width="match_parent"
+        android:layout_height="63dp"
+        android:text="Change colour" />
+
+    <Button
+        android:id="@+id/fontIncrease"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="Increase font size" />
+
+    <Button
+        android:id="@+id/resetbtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reset" />
+
+</LinearLayout>
